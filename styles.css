@@ -7,3 +7,7 @@
   overflow-x: auto;
   padding: 6px;
 }
+
+body {
+  font-family: "Marcellus SC", serif;
+}
