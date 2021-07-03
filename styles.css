@@ -1,3 +1,11 @@
 #side {
   float: left;
+  width: 30%;
+  height: 100%;
+  margin-left: 10px;
+  background: rgb(255, 255, 219);
+  margin: 6px;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 6px;
 }
