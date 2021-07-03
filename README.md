@@ -5,4 +5,4 @@ Thank you for looking at this encyclopedia and we hope you enjoy it.
 
 ~ Arjun and Dyuthi (Co-founders of Encyclopedia Sphurthy)
 
-Visit the encyclopedia at [encyclopediasphurthy.github.io](encylopediasphurthy.github.io).
+Visit the encyclopedia at [https://encyclopediasphurthy.github.io/](https://encyclopediasphurthy.github.io/).
