@@ -16,3 +16,7 @@ body {
 .center {
   background: rgb(255, 239, 117);
 }
+
+#list {
+  font-size: 16px;
+}
