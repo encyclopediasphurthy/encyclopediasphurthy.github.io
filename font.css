@@ -12,3 +12,7 @@ body {
   font-family: 'Marcellus SC', serif;
   text-align: center;
 }
+
+.center {
+  background: rgb(255, 239, 117);
+}
