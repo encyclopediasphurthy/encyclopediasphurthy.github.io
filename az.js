@@ -19,7 +19,7 @@ fetch('az.json')
         place[8].innerHTML = "I. " + data.I;
         place[9].innerHTML = "J. " + data.J;
         place[10].innerHTML = "K. " + data.K;
-        place[11].innerHTML = "L. " + data.M;
+        place[11].innerHTML = "L. " + data.L;
         place[12].innerHTML = "M. " + data.M;
         place[13].innerHTML = "N. " + data.N;
         place[14].innerHTML = "O. " + data.O;
