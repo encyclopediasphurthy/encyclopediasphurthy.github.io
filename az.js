@@ -8,7 +8,7 @@ fetch('az.json')
         var place = document.querySelectorAll(".container");
         console.log(place);
         var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-        place[0].innerHTML(data.A);
+        place[0].innerHTML = data.A;
         place[1].innerHTML(data.B);
         place[2].innerHTML(data.C);
         place[3].innerHTML(data.D);
