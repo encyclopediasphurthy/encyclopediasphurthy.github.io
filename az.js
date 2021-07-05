@@ -29,11 +29,9 @@ fetch('az.json')
         place[18].innerHTML = "S. " + data.S;
         place[19].innerHTML = "T. " + data.T;
         place[20].innerHTML = "U. " + data.U;
-        place[21].innerHTML(data.V);
-        place[22].innerHTML(data.W);
-        place[23].innerHTML(data.X);
-        place[24].innerHTML(data.Y);
-        place[25].innerHTML(data.Z);
-        
-        
+        place[21].innerHTML = "V. " + data.V;
+        place[22].innerHTML = "W. " + data.W;
+        place[23].innerHTML = "X. " + data.X;
+        place[24].innerHTML = "Y. " + data.Y;
+        place[25].innerHTML = "Z. " + data.Z;
   })
