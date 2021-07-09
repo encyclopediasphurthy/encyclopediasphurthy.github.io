@@ -25,12 +25,16 @@
   </div>
   
   <h1>Feedback</h1>
-  <form action="feedback.py">
-  <label for="fname">Name:</label><br>
+ <br>
+  <form method="post" action="fb.php" id="feedback">
+ <label for="fname">Name:</label><br>
   <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Feedback:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
-  <input type="submit" value="Send">
-  </form> 
+   <label for="lname">Feedback:</label><br>
+   <textarea name="message" rows="10" cols="30">
+   
+   </textarea>
+  <input type="submit" value="Submit">
+</form>
+
  </body>
 </html>
