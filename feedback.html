@@ -102,8 +102,13 @@ form {
 </form>
   
   <?php
-    echo "<p>This process is Experimental and is not finished.</p><br>";
-    echo "<button class="button">I understand and want to continue</button>";
+    echo "<br><br><p>This process is Experimental and is not finished.</p><br>";
+    $doc = new DomDocument;
+    // We need to validate our document before referring to the id
+    $doc->validateOnParse = true;
+    $doc->Load('feedback.html');
+    echo "Make sure your email is " . $doc->getElementById('email')->tagName . "\n";
   ?>
+  <button class="button">I understand and want to continue</button>
 </body>
 </html>
