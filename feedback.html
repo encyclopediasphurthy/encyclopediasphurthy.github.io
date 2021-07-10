@@ -102,6 +102,15 @@ form {
   
     <br><br><p>This process is Experimental and is not finished.</p><br>
   <button class="button" onclick="load()">Continue</button>
+  <?php
+    $feedback = "";
+    if (empty($_POST["feedback"])) {
+    $feedback = "";
+  } else {
+    $feedback = test_input($_POST["feebback"]);
+    echo $feedback;
+  }
+  ?>
   <script src="fb.js"></script>
 </body>
 </html>
