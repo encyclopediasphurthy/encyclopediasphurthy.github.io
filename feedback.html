@@ -91,10 +91,7 @@ form {
 
 
 
-  <form style="max-width:500px;margin:auto" style="text-align: center;" id="center" action="<?php
-    echo "<p>This process is Experimental and is not finished. </p><br>";
-    echo "<button class="button">I understand and want to continue</button>";
-  ?>">
+  <form style="max-width:500px;margin:auto" style="text-align: center;" id="center">
   <div class="input-container">
     <input class="input-field" type="text" placeholder="Email" name="email" rows="10" cols="60" id="email">
   </div>
@@ -105,5 +102,9 @@ form {
       <button type="submit" class="btn">Submit</button>
 </form>
   
+  <?php
+    echo "<p>This process is Experimental and is not finished. </p><br>";
+    echo "<button class="button">I understand and want to continue</button>";
+  ?>
 </body>
 </html>
