@@ -32,14 +32,14 @@
    
    <a href= "https://encyclopediasphurthy.github.io/#pages">Browse pages</a><br><br><br>
    <a href= "https://github.com/encyclopediasphurthy/encyclopediasphurthy.github.io/blob/main/MTC.md">Meet the crew</a><br><br><br><br><br>
-   <!-- Thanks to W3Schools for the log in code -->
-   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+   <!-- Thanks to W3Schools for the login code -->
+   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="button">Login</button>
 
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php" method="post">
     <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <span onclick="document.getElementById('id01').style.display='none'" title="Close Modal"  class="button">&times;</span>
       <img src="logo.png" alt="Avatar" class="avatar">
     </div>
 
@@ -50,14 +50,14 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
         
-      <button type="submit">Login</button>
+      <button type="submit"  class="button">Login</button>
       <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
+        
       </label>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="button">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
