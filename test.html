@@ -29,30 +29,24 @@
    
    <a href= "https://encyclopediasphurthy.github.io/#pages">Browse pages</a><br><br><br>
    <a href= "https://github.com/encyclopediasphurthy/encyclopediasphurthy.github.io/blob/main/MTC.md">Meet the crew</a><br><br><br><br><br>
-   <!-- Thanks to W3Schools for the login code -->
-   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="button" id="log">Login</button>
+   <!-- Thanks to W3Schools for the contribute code -->
+   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="button" id="log">Contribute</button>
 
 <div id="id01" class="modal">
   
   <form class="modal-content animate">
     <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" title="Close Modal"  class="close">&times;</span>
+      <span onclick="document.getElementById('id01').style.display='none'" title="Close"  class="close">&times;</span>
       <img src="logo.png" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" id="user" required>
-      <br>
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="uname"><b>Id: </b></label>
+      <input type="text" placeholder="Add the current id" name="uname" id="user" required>
+      
       <br><br><br><br>
-      <button type="submit"  class="button" onclick="log()">Login</button><br>
-      <label>
-        
-      </label>
-     <button type="button" onclick="document.getElementById('id01').style.display='none'" class="button">Cancel</button>
     </div>
+   <button class="button" onclick="log()">Login</button><br>
     
   </form>
 </div>
