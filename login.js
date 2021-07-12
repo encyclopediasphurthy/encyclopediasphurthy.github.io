@@ -1,9 +1,9 @@
+function log() {
 fetch('encyclopediasphurthy.github.io/api.json')
   .then(response => {
     return response.json();
   })
   .then(json=>{
-        function log() {
         var form = document.getElementById('user').value;
         console.log(form);
         console.log(json);
@@ -16,5 +16,6 @@ fetch('encyclopediasphurthy.github.io/api.json')
           console.log(whoo);
           window.open("https://forms.gle/ZrBqzBTPcoFxvtsW7");
         }*/
-        }
+        
   })
+}
