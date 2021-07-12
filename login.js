@@ -13,7 +13,7 @@ fetch('encyclopediasphurthy.github.io/api.json')
         if (form = id) {
           var whoo = "Whoo!";
           console.log(whoo);
-          window.open("https://forms.gle/ZrBqzBTPcoFxvtsW7");*/
-        }
+          window.open("https://forms.gle/ZrBqzBTPcoFxvtsW7");
+        }*/
   })
 }
