@@ -1,6 +1,6 @@
 function log() {
 var form = document.getElementById('user').value;
-console.log(username);
+console.log(form);
 fetch('encyclopediasphurthy.github.io/api.json')
   .then(response => {
     return response.json();
