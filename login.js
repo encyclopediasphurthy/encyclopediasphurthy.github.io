@@ -16,5 +16,5 @@ fetch('encyclopediasphurthy.github.io/api.json')
           console.log(whoo);
           window.open("https://forms.gle/ZrBqzBTPcoFxvtsW7");
         }*/
+        }
   })
-}
