@@ -1,5 +1,15 @@
 function log() {
-var button = document.getElementById("log");
-var username = document.getElementById('user').value;
-button.innerHTML = "You are logged in as " + username;
+var form = document.getElementById('user').value;
+console.log(username);
+fetch('encyclopediasphurthy.github.io/api.json')
+  .then(response => {
+    return response.json();
+  })
+  .then(json=>{
+        var data = json;
+        var id = "data.token";
+        if (form = id) {
+          window.open("https://forms.gle/ZrBqzBTPcoFxvtsW7");
+        }
+  })
 }
