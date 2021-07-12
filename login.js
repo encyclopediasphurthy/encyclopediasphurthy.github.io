@@ -1,11 +1,12 @@
-function log() {
-var form = document.getElementById('user').value;
-console.log(form);
 fetch('encyclopediasphurthy.github.io/api.json')
   .then(response => {
     return response.json();
   })
   .then(json=>{
+        function log() {
+        var form = document.getElementById('user').value;
+        console.log(form);
+        console.log(json);
         var data = json;
         console.log(data);
         /*var id = "data.token";
