@@ -2,6 +2,7 @@ function log() {
 fetch('encyclopediasphurthy.github.io/api.json')
   .then(response => {
     return response.json();
+    console.log(response.json());
   })
   .then(json=>{
         var form = document.getElementById('user').value;
