@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
 <style>
+/* CSS Rules */
 .chip {
   display: inline-block;
   padding: 0 25px;
@@ -39,6 +40,46 @@
 .closebtn:hover {
   color: #000;
 }
+  
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
 </style>
   
   <title>About Sphurthy</title>
@@ -49,13 +90,24 @@
 <!--Encyclopedia Sphurthy Chip-->
 <div class="chip">
   <img src="logo.png" alt="Encyclopedia Sphurthy Logo" width="96" height="96">
-  Encyclopedia Sphurthy v2
+  Encyclopedia Sphurthy
 </div>  
    <h1>About Sphurthy</h1>
   
 
   <!--Card-->
-  
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
   
   
   <!--Logo Credits-->
