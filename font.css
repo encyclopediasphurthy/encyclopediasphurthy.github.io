@@ -99,3 +99,16 @@ h1 {
   font-family: 'Marcellus SC', serif;
   text-align: center;
 }
+
+.closebtn {
+  padding-left: 10px;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #000;
+}
