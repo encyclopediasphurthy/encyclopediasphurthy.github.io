@@ -5,7 +5,7 @@ fetch('https://geo.ipify.org/api/v1?apiKey=at_xd27gGnRwYIBnLFpDy9olXzKi0FVl')
   .then(json=>{
         console.log(json);
         var data = json;
-        var ip = data.query;
+        var ip = data.ip;
         console.log(ip);
         var cookies = "username=" + ip + "path=/cookies.html"
         document.cookie = cookies;
