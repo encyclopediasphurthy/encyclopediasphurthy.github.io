@@ -1,4 +1,4 @@
-fetch('az.json')
+fetch('https://raw.githubusercontent.com/encyclopediasphurthy/es-index/main/json/az.json')
   .then(response => {
     return response.json();
   })
