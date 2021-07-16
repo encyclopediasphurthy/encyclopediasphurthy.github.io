@@ -16,6 +16,8 @@ fetch('https://geo.ipify.org/api/v1?apiKey=at_xd27gGnRwYIBnLFpDy9olXzKi0FVl')
         //store user in cookie
         var user_cookies = "user=" + user + "; path=/developers.html"
         document.cookie = user_cookies;
+        //open the developer page
+        window.location.replace('https://encyclopediasphurthy.github.io/developers.html');
   })
 
 }
