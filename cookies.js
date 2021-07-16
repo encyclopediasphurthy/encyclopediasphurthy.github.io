@@ -1,12 +1,20 @@
+// When registered:
+function register() {
+//get ip adress
 fetch('https://geo.ipify.org/api/v1?apiKey=at_xd27gGnRwYIBnLFpDy9olXzKi0FVl')
   .then(response => {
     return response.json();
   })
   .then(json=>{
-        console.log(json);
         var data = json;
         var ip = data.ip;
-        console.log(ip);
-        var cookies = "username=" + ip + "; path=/cookies.html"
-        document.cookie = cookies;
+        //store ip adress to cookie
+        var ip_cookies = "ip=" + ip + "; path=/cookies.html"
+        document.cookie = ip_cookies;
+        //get user
+        var user = document.getElementById("user").value;
+        //store user in cookies
+        var user_cookies = "user=" + user + "; path=/cookies.html"
   })
+
+}
