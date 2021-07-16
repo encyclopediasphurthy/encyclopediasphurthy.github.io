@@ -54,16 +54,7 @@
    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 <div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="
-  <?php
-  // The global $_POST variable allows you to access the data sent with the POST method by name
-  // To access the data sent with the GET method, you can use $_GET
-  $say = htmlspecialchars($_POST['uname']);
-
-  echo  $say;
-?>
-" method="post">
+  <div class="modal-content animate">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="https://raw.githubusercontent.com/encyclopediasphurthy/es-index/main/photos/logo.png" alt="ES Logo" class="avatar">
@@ -73,7 +64,7 @@
       <label for="uname"><b>User</b></label>
       <input type="text" placeholder="Enter your name" name="uname" required>
         
-      <button type="submit">Register</button>
+      <button onclick="">Register</button>
       <label>
         
       </label>
@@ -82,9 +73,9 @@
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
     </div>
-  </form>
+   </div>
 </div>
-
+<script src="cookies.js"></script>
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
