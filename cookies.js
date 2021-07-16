@@ -13,8 +13,9 @@ fetch('https://geo.ipify.org/api/v1?apiKey=at_xd27gGnRwYIBnLFpDy9olXzKi0FVl')
         document.cookie = ip_cookies;
         //get user
         var user = document.getElementById("user").value;
-        //store user in cookies
+        //store user in cookie
         var user_cookies = "user=" + user + "; path=/cookies.html"
+        document.cookies = user_cookies;
   })
 
 }
