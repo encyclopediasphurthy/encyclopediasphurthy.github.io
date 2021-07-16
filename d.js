@@ -25,5 +25,5 @@ let user = getCookie("user");
     alert("Your logged in as: " + user);
   } else {
     alert("Please log in to the ESDN (Enyclopedia Sphurthy Developer Network)");
-    window.close();
-  }
+    window.location.replace('encyclopediasphurthy.github.io');
+}
