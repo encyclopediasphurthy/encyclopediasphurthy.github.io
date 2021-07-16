@@ -26,3 +26,4 @@ let user = getCookie("user");
   } else {
     alert("Please log in to the ESDN (Enyclopedia Sphurthy Developer Network)");
     window.close();
+  }
